@@ -15,7 +15,7 @@ import {
 const Home = () => {
     return (
         <>
-            <HomeSection>
+            <HomeSection id="home">
                 <Container>
                     <HomeContent>
                         <h1>Find Your Drem House</h1>

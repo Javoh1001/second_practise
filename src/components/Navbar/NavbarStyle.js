@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import {Container} from '../../globalStyle';
-import {Link} from 'react-router-dom';
+import { Link } from "react-scroll";
 
 
 export const Nav = styled.nav`
@@ -13,10 +13,6 @@ export const Nav = styled.nav`
     position:sticky;
     top:0;
     z-index:999;
-
-    &:hover{
-        
-    }
 `
 export const NavbarContainer = styled(Container)`
     display:flex;
@@ -78,7 +74,6 @@ export const NavMenu = styled.ul`
 export const NavItem = styled.li`
     height:80px;
     border-bottom:2px solid transparent;
-
     &:hover{
         border-bottom:2px solid #4b59f7;
     }
@@ -100,6 +95,8 @@ export const NavLink = styled(Link)`
     height:100%;
     font-size:1.8rem;
     white-space:nowrap;
+
+    
 
     @media screen and (max-width:1200px){
         font-size:1.6rem;

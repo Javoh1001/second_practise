@@ -7,11 +7,12 @@ const GlobalStyle = createGlobalStyle`
         box-sizing:border-box;
         font-family: 'Rubik', sans-serif;
         // flex-flow:row wrap;
-        transition:all .4s linear;
+        // transition:all .4s linear;
     }
     html{
         font-size:10px;
         overflow-x:hidden;
+        scroll-behavio:smooth;
     }
 `;
 

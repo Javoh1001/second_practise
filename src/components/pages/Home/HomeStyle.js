@@ -22,6 +22,10 @@ export const HomeSection = styled.div`
         left:0;
         z-index:-1;
     }
+
+    @media screen and (max-width:576px){
+        height:100vh;
+    }
 `
 export const HomeContent = styled.div`
     display:flex;
